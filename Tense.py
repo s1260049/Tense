@@ -1,6 +1,8 @@
 import tkinter
 import nltk
 import re
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 color_dic = {'yellow':'\033[43m', 'red':'\033[31m', 'blue':'\033[34m', 'end':'\033[0m'}
 
